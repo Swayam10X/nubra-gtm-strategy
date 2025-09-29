@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GTM Strategy: Nubra Trade | Swayam Pattnaik</title>
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="bg-dark text-white text-center p-4">
+        <h1>Go-to-Market Strategy: Nubra Trade</h1>
+        <p class="lead">Submitted by Swayam Pattnaik (22BEC1228)</p>
+    </header>
+
+    <main class="container my-5">
+        
+        <section id="summary" class="mb-5">
+            <h2>Executive Summary</h2>
+            <p>Our vision is to position Nubra as the default platform for every engineer in the country to begin their trading and investing journey. This GTM strategy outlines a 1-year plan to capture a serviceable market of 36,000 activated trading accounts by focusing on an API-first product, targeted marketing, and strong community engagement.
+Total Addressable Market (TAM)
+Represents the total market demand for a product or service, signifying the theoretical upper ceiling of the opportunity.
+
+Defines the maximum potential revenue if a business were to capture 100% of the market share.
+
+Used to illustrate the ultimate scale and long-term potential of a market segment.
+
+Serviceable Addressable Market (SAM)
+The segment of the TAM that a company can realistically target with its current business model, products, and geographical reach.
+
+Defines the specific portion of the total market that the business is equipped to serve.
+
+This metric effectively narrows the market from the theoretical total to a practical target area.
+
+Serviceable Obtainable Market (SOM)
+The portion of the SAM that a business can realistically capture in the short term, typically within 1-3 years.
+
+Represents the concrete, near-term sales or user acquisition goal that a go-to-market strategy is designed to achieve.
+
+This figure is determined by considering internal resources, budget, and the existing competitive landscape.
+</p>
+        </section>
+
+        <section id="market-sizing" class="mb-5">
+            <h2>Market Sizing Analysis</h2>
+            <p>The analysis follows a TAM-SAM-SOM model to identify our target market segment within the engineering community.</p>
+            <div class="chart-container">
+                <canvas id="marketSizeChart"></canvas>
+            </div>
+        </section>
+
+        <section id="timeline" class="mb-5">
+            <h2>1-Year Go-to-Market Timeline</h2>
+            <p>The GTM plan is phased across four quarters, focusing on Foundation, Launch, Growth, and Optimization.</p>
+            <!-- Replace with actual image path in project folder -->
+            <img src="Timeline.jpg" alt="GTM Timeline" class="img-fluid border rounded">
+        </section>
+
+        <section id="kpi-dashboard" class="mb-5">
+            <h2>KPI Dashboard</h2>
+            <p>Success will be measured against a set of key performance indicators tracking the entire user funnel.</p>
+            <div class="row">
+                <div class="col-md-6">
+                    <h4>Onboarding Funnel</h4>
+                    <canvas id="funnelChart"></canvas>
+                </div>
+                <div class="col-md-6">
+                    <h4>Acquisition by Channel</h4>
+                    <canvas id="channelChart"></canvas>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="text-center p-3 bg-light">
+        <p>&copy; 2025 Swayam Pattnaik - Business Analyst Intern Assignment</p>
+    </footer>
+
+    <!-- Load Chart.js (non-minified UMD build, no source map error) -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js/dist/chart.umd.js"></script>
+    
+    <!-- Custom Script -->
+    <script src="script.js"></script>
+
+</body>
+</html>
